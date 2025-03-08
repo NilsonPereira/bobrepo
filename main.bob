@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-03-08 20:41:29 by nil-->
+<display version="2.0.0">
+  <name>HLAB Home</name>
+  <width>500</width>
+  <height>700</height>
+  <background_color>
+    <color name="Text" red="0" green="0" blue="0">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <x>10</x>
+    <y>10</y>
+    <width>480</width>
+    <height>680</height>
+    <line_color>
+      <color red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="51" green="51" blue="51">
+      </color>
+    </background_color>
+    <corner_width>5</corner_width>
+    <corner_height>5</corner_height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="open_display">
+        <description>Labstatus 01</description>
+        <file>labstatus01.bob</file>
+        <target>replace</target>
+      </action>
+    </actions>
+    <x>40</x>
+    <y>40</y>
+    <width>190</width>
+    <height>60</height>
+    <font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_2</name>
+    <actions>
+      <action type="open_display">
+        <description>Labstatus 02</description>
+        <file>labstatus02.bob</file>
+        <target>replace</target>
+      </action>
+    </actions>
+    <x>280</x>
+    <y>40</y>
+    <width>190</width>
+    <height>60</height>
+    <font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_3</name>
+    <actions>
+      <action type="open_display">
+        <description>HLAB Stats</description>
+        <file>hlabstats.bob</file>
+        <target>replace</target>
+      </action>
+    </actions>
+    <x>40</x>
+    <y>140</y>
+    <width>190</width>
+    <height>60</height>
+    <font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>
