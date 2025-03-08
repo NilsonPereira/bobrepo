@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-03-08 20:35:09 by nil-->
+<!--Saved on 2025-03-08 21:48:27 by nil-->
 <display version="2.0.0">
   <name>Labstatus$(N)</name>
   <macros>
@@ -57,7 +57,7 @@
       </font>
     </font>
     <foreground_color>
-      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      <color red="255" green="255" blue="255">
       </color>
     </foreground_color>
     <transparent>true</transparent>
@@ -90,7 +90,7 @@
       </font>
     </font>
     <foreground_color>
-      <color name="Button_Background" red="210" green="210" blue="210">
+      <color red="255" green="255" blue="255">
       </color>
     </foreground_color>
     <transparent>true</transparent>
@@ -108,7 +108,7 @@
       </font>
     </font>
     <foreground_color>
-      <color name="Button_Background" red="210" green="210" blue="210">
+      <color red="255" green="255" blue="255">
       </color>
     </foreground_color>
     <transparent>true</transparent>
@@ -129,7 +129,7 @@
       </font>
     </font>
     <foreground_color>
-      <color name="Button_Background" red="210" green="210" blue="210">
+      <color red="255" green="255" blue="255">
       </color>
     </foreground_color>
     <transparent>true</transparent>
@@ -147,7 +147,7 @@
       </font>
     </font>
     <foreground_color>
-      <color name="Button_Background" red="210" green="210" blue="210">
+      <color red="255" green="255" blue="255">
       </color>
     </foreground_color>
     <transparent>true</transparent>
@@ -168,7 +168,7 @@
       </font>
     </font>
     <foreground_color>
-      <color name="Button_Background" red="210" green="210" blue="210">
+      <color red="255" green="255" blue="255">
       </color>
     </foreground_color>
     <transparent>true</transparent>
